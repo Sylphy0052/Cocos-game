@@ -30,20 +30,22 @@ class HelloWorld : public cocos2d::Layer
 {
 protected:
     std::vector<Card> _cards; //カード情報
-    
+    auto visibleSize;
+    Vec2 origin;
+
     void initCards(); //カードを初期化する
     Card getCard(); //カードを取得する
     void createCard(PosIndex posIndex); //カードを作成する
     void showInitCards(); //ゲーム開始時にカードを10枚表示する
     void initGame(); //ゲームを初期化する
-    
+
 public:
     //HelloWorldクラスのシーンを作成する
     static cocos2d::Scene* createScene();
-    
+
     //初期化処理を行う
     virtual bool init();
-    
+
     //create関数作成マクロ
     CREATE_FUNC(HelloWorld);
 };

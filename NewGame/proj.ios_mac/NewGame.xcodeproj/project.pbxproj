@@ -61,6 +61,12 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		A3718DC11F5C4E1C000DD948 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = A3718DBB1F5C4E1C000DD948 /* button.png */; };
+		A3718DC21F5C4E1C000DD948 /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A3718DBC1F5C4E1C000DD948 /* card_back.png */; };
+		A3718DC31F5C4E1C000DD948 /* card_clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = A3718DBD1F5C4E1C000DD948 /* card_clubs.png */; };
+		A3718DC41F5C4E1C000DD948 /* card_diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = A3718DBE1F5C4E1C000DD948 /* card_diamonds.png */; };
+		A3718DC51F5C4E1C000DD948 /* card_hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = A3718DBF1F5C4E1C000DD948 /* card_hearts.png */; };
+		A3718DC61F5C4E1C000DD948 /* card_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = A3718DC01F5C4E1C000DD948 /* card_spades.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -100,6 +106,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
+		};
+		A3718DC81F5C4E1C000DD948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
+			remoteInfo = "libcocos2d tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -156,6 +169,12 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A3718DBB1F5C4E1C000DD948 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		A3718DBC1F5C4E1C000DD948 /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back.png; sourceTree = "<group>"; };
+		A3718DBD1F5C4E1C000DD948 /* card_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_clubs.png; sourceTree = "<group>"; };
+		A3718DBE1F5C4E1C000DD948 /* card_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_diamonds.png; sourceTree = "<group>"; };
+		A3718DBF1F5C4E1C000DD948 /* card_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_hearts.png; sourceTree = "<group>"; };
+		A3718DC01F5C4E1C000DD948 /* card_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_spades.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -240,6 +259,7 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
+				A3718DC91F5C4E1C000DD948 /* libcocos2d tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,6 +308,12 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A3718DBB1F5C4E1C000DD948 /* button.png */,
+				A3718DBC1F5C4E1C000DD948 /* card_back.png */,
+				A3718DBD1F5C4E1C000DD948 /* card_clubs.png */,
+				A3718DBE1F5C4E1C000DD948 /* card_diamonds.png */,
+				A3718DBF1F5C4E1C000DD948 /* card_hearts.png */,
+				A3718DC01F5C4E1C000DD948 /* card_spades.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -445,6 +471,13 @@
 			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		A3718DC91F5C4E1C000DD948 /* libcocos2d tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d tvOS.a";
+			remoteRef = A3718DC81F5C4E1C000DD948 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -453,6 +486,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				A3718DC41F5C4E1C000DD948 /* card_diamonds.png in Resources */,
+				A3718DC11F5C4E1C000DD948 /* button.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
@@ -473,7 +508,11 @@
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				A3718DC21F5C4E1C000DD948 /* card_back.png in Resources */,
+				A3718DC61F5C4E1C000DD948 /* card_spades.png in Resources */,
+				A3718DC31F5C4E1C000DD948 /* card_clubs.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
+				A3718DC51F5C4E1C000DD948 /* card_hearts.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
