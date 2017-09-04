@@ -1,0 +1,36 @@
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/bin/NewGame1.ap_ \
+ : /Users/pyente/Github/cocos-game/NewGame1/proj.android/res/drawable-hdpi/icon.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/res/drawable-ldpi/icon.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/res/drawable-mdpi/icon.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/res/values/strings.xml \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/bin/res/drawable-hdpi/icon.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/bin/res/drawable-ldpi/icon.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/bin/res/drawable-mdpi/icon.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/background.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/ball.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/bgm.mp3 \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/block1.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/block2.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/brown.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/CloseNormal.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/CloseSelected.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/enemy1.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/enemy2.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/failure.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fire.mp3 \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fog1.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fog2.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fog3.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fonts \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/HelloWorld.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/hit.mp3 \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/launcher1.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/launcher2.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/res \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/roof.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/star.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/stone.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/success.png \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fonts/arial.ttf \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/assets/fonts/Marker Felt.ttf \
+/Users/pyente/Github/cocos-game/NewGame1/proj.android/bin/AndroidManifest.xml \

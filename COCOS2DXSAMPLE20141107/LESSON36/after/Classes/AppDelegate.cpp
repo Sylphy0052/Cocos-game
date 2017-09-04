@@ -7,7 +7,7 @@ AppDelegate::AppDelegate()
 {
 }
 
-AppDelegate::~AppDelegate() 
+AppDelegate::~AppDelegate()
 {
 }
 
@@ -26,10 +26,10 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     // 画像が画面の高さにフィットするように画像を伸縮させる
     glview->setDesignResolutionSize(1136, 640, ResolutionPolicy::FIXED_HEIGHT);
-    
+
     auto scene = GameLayer::createScene();
     director->runWithScene(scene);
-    
+
     return true;
 }
 

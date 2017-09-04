@@ -90,3 +90,12 @@ source .bash_profile
 cd ~/CocosProjects/TestProject
 cocos run -p android
 ```
+
+- Android
+`cocos run -p android`
+
+- iOS
+`xcodeproj`->XCodeから開く
+
+- NewProject
+`cocos new NewGame -p com.pyente.testproject -l cpp`
